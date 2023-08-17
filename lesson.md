@@ -22,7 +22,13 @@ Check-in with learners for a short Q&A about the video.
 
 ### Fork and clone repository
 
-Step 1: Visit [this dummy repository url](https://github.com/su-ntu-ctp/se-cohort-git-practice) on the browser.
+# <<<<<<< HEAD
+
+> If you have problems with credentials when cloning, committing, or pushing to Github.com, you can install Github CLI via [link](https://cli.github.com)
+> OR you can just follow the onscreen instructions to add your email and name.
+
+> > > > > > > 171d1317cd50e581ad1664b07b6c20947ad64fcc
+> > > > > > > Step 1: Visit [this dummy repository url](https://github.com/su-ntu-ctp/se-cohort-git-practice) on the browser.
 
 Step 2: Fork it as your own repository.
 
@@ -48,7 +54,7 @@ When you clone, you are copying a remote repository to your local machine (lapto
 
 Follow these steps to try making changes and push them to the remote repository. (6m-software-1.2-cli-git)
 
-Step 1: Create a new file `test.txt` in the cloned repository (folder). 
+Step 1: Create a new file `test.txt` in the cloned repository (folder).
 
 Step 2: Open the file and simply type "testing 123" in it.
 
@@ -62,13 +68,19 @@ Step 6: Push the committed change to remote repository `git push origin main`.
 
 Step 7: Visit your remote repository at github.com to see the changes. The remote repository URL is `https://github.com/<your username>/6m-software-1.2-cli-git`.
 
-Step 8: Perform a pull request to the upstream repository 
+Step 8: Perform a pull request to the upstream repository
 
 From: `https://github.com/your_username/6m-software-1.2-cli-git`
 
-To: `https://github.com/su-ntu-ctp/6m-software-1.2-cli-git` 
+To: `https://github.com/su-ntu-ctp/6m-software-1.2-cli-git`
+
+<<<<<<< HEAD
 
 > If you have problems with credentials when pushing to Github.com, you can just follow the onscreen instructions to add your email and name. WSL users need to run `gh auth login` to do a one-time authentication. You might need to run `sudo apt install gh` first.
+
+=======
+
+> > > > > > > 171d1317cd50e581ad1664b07b6c20947ad64fcc
 
 ---
 
